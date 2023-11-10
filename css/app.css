@@ -1,0 +1,37 @@
+.app{
+    padding-top: 60px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0 60px;
+    background-color: var(--cor-app);
+}
+.imagens-app{
+    display: flex;
+}
+/* CONTAINER-APP */
+.container-app{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.container-app img{
+    margin-left: 60px;
+}
+.container-app h2{
+    font-size: 25px;
+    color: var(--white);
+}
+
+.container-app p{
+    font-size: 16px;
+    font-family: 'roboto';
+    padding-bottom: 80px;
+
+    color: var(--texto-p);
+}
+.icones-app{
+    display: flex;
+    margin-left: -80px;
+}

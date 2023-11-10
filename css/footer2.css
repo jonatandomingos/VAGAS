@@ -1,0 +1,39 @@
+
+.footer2{
+    padding: 100px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 40px;
+    border-bottom: 1px solid var(--linha);
+}
+.institucinal, .empresas, .candidatos, .aplicativos-vagas{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+
+.titulo{
+    color: var(--primary);
+    text-decoration: none;
+    font-family: 'roboto';
+    font-weight: 700;
+}
+.titulo:hover{
+    text-decoration: underline;
+}
+
+.institucinal .i, .empresas .i, .candidatos .i{
+    font-size: 14px;
+    color: var(--texto-p);
+    text-decoration: none;
+    font-family: 'roboto';
+    font-weight: 700;
+}
+
+.institucinal .i:hover, .empresas .i:hover, .candidatos .i:hover{
+    text-decoration: underline;
+
+
+}

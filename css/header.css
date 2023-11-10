@@ -1,0 +1,33 @@
+header{
+    background-color: white;
+    padding-top: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+}
+header nav{
+    display: flex;
+    column-gap: 20px;
+}
+header a{
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--textocinza500);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: all .2s ease-in;
+}
+header .voçe{
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--primary);
+    color: var(--primary2);
+    transition: all .2s ease-in;
+}
+header.voçe:hover{
+    /* color: var(--primary); */
+    color: green;
+}
+header a:hover{
+    color: var(--texto);
+}

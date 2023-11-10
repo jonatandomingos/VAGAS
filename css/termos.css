@@ -1,0 +1,19 @@
+.termos{
+    padding: 20px;
+
+}
+.termos p{
+    font-size: 14px;
+    color: var(--texto-p);
+    font-family: 'roboto';
+    font-weight: 700;
+    padding-left: 60px;
+}
+.termos a{
+    text-decoration: none;
+    color: var(--secundary);
+}
+.termos a:hover{
+    text-decoration: underline;
+    
+}

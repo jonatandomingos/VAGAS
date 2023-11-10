@@ -1,0 +1,46 @@
+
+
+.tipos-empregos{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    background-color: var(--primary);
+    row-gap: 20px;
+    padding-bottom: 50px;
+    
+   
+}
+.container1-emprego{
+    display: flex;
+    column-gap: 20px;
+}
+.tipos-empregos1{
+    height: 80px;
+    width: 250px;
+
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+.tipos-empregos1 a{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    font-size: 14px;
+    font-family: 'roboto';
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+
+}
+.tipos-empregos1 i{
+    padding-left: 50px;
+    font-size: 20px;
+    color: var(--secundary);
+}
+.container2{
+    display: flex;
+    column-gap: 20px;
+    
+}

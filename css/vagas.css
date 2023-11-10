@@ -1,0 +1,72 @@
+
+.vagas{
+    padding-top: 80px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+}
+.titulos{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.titulos h3{
+    font-size: 20px;
+    font-family: 'roboto';
+    color: var(--white);
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+.titulos h1{
+    font-size: 40px;
+    color: var(--white);
+    padding-bottom: 40px;
+}
+.titulos input{
+    height: 70px;
+    width: 800px;
+
+    font-size: 20px;
+}
+.titulos input::placeholder{
+    padding-left: 10px;
+}
+.itens-vagas{
+    display: flex;
+    column-gap: 20px;
+
+}
+.container-vagas{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    padding: 10px 20px;
+
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 300;
+    background-color: var(--primary);
+    border: 1px solid var(--white);
+
+    cursor: pointer;
+    
+}
+.container-vagas svg:hover{
+
+    color: black;
+}
+.container-vagas span{
+    color: var(--white);
+}
+.container-vagas span:hover{
+    color: black;
+    font-weight: 700;
+
+}
+.container-vagas:hover{
+    background-color: var(--white);
+
+}
+

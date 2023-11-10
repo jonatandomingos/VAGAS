@@ -1,0 +1,50 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,800;0,900;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;1,400;1,500;1,700&display=swap'); */
+
+
+
+@import url(/css/header.css);
+@import url(/css.header2.css);
+@import url(/css/vagas.css);
+@import url(/css/oportunidade.css);
+@import url(/css/plataforma.css);
+@import url(/css/empresas.css);
+@import url(/css/profissional.css);
+@import url(/css/app.css);
+@import url(/css/empregos.css);
+@import url(/css/tipos-empregos.css);
+@import url(/css/duvidas.css);
+@import url(/css/footer.css);
+@import url(/css/footer2.css);
+@import url(/css/termos.css);
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+:root{
+    --white: #fff;
+    --primary: #02a97f;
+    --primary2: #35ba99;
+    --secundary: #4b39ff;
+    --secundary2: #6f61ff;
+    --texto: #2c343e;
+    --textocinza: #eaedf0;
+    --textocinza500: #8c95a1;
+    --linha: #eaedf0;
+    --texto-p:  #596573;
+    --cor-app: #1c1b25;
+
+}
+body{
+    /* background-color: var(--primary); */
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    
+    
+}

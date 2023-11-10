@@ -1,0 +1,16 @@
+
+.oportunidade{
+    padding: 100px;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--textocinza500);
+    margin: 0px 60px;
+
+    display: flex;
+    justify-content: space-around;
+    column-gap: 80px;
+}
+.texto-oprtunidade{
+    font-size: 20px;
+    font-weight: 300;
+
+}

@@ -1,0 +1,67 @@
+
+.duvidas{
+    padding: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.texto-duvidas{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+.texto-duvidas h4{
+    font-size: 18px;
+    color: var(--primary);
+    font-family: 'roboto';
+    font-weight: 500;
+
+}
+.texto-duvidas h2{
+    font-size: 25px;
+
+
+}
+.texto-duvidas p{
+    font-size: 18px;
+    color: var(--texto-p);
+    font-family: 'roboto';
+    font-weight: 300;
+    padding-bottom: 80px;
+}
+.texto-duvidas a{
+    text-decoration: none;
+    color: var(--secundary);
+}
+.texto-duvidas a:hover{
+    text-decoration: underline;
+}
+/*  */
+.texto-duvidas2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    row-gap: 40px;
+}
+.texto-duvidas2 a{
+    text-decoration: none;
+    padding-bottom: 50px;
+
+    font-family: 'roboto';
+    font-weight: 300;
+    color: var(--texto-p);
+    border-bottom: 1px solid var(--linha);
+}
+.texto-duvidas2 i{
+    padding-left: 130px;
+    
+    align-items: end;
+    font-size: 20px;
+    color: blue;
+    font-weight: 700;
+}
+.recuperar i{
+    margin-left: 140px;
+}

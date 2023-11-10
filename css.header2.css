@@ -1,0 +1,57 @@
+
+.header2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid var(--linha);
+
+    background-color: var(--primary);
+}
+.logo{
+    font-size: 30px;
+    color: var(--white);
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.btns{
+    display: flex;
+    column-gap: 10px;
+}
+.entrar{
+    display: flex;
+    border: 1px solid white;
+    background-color: var(--primary);
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+
+    cursor: pointer;
+
+
+}
+.entar button:hover{
+    background-color: var(--white);
+    color: var(--texto);
+}
+.btns button{
+    padding: 10px;
+    border-radius: 4px;
+    
+    cursor: pointer;
+}
+.gratis{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    border: 1px solid var(--secundary2);
+    background-color: var(--secundary2);
+    transition: all .2s ease-out;
+
+}
+.gratis:hover{
+    background-color: var(--secundary);
+}

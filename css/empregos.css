@@ -1,0 +1,68 @@
+.empregos{
+    padding: 100px;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+}
+.trabalho{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.trabalho h4{
+    font-size: 16px;
+    color: var(--white);
+    font-family: 'roboto';
+    font-weight: 600;
+}
+.trabalho h2{
+    font-size: 30px;
+    color: var(--white);
+
+}
+.cargos{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--linha);
+    position: relative;
+}
+.cargos a{
+    color: var(--white);
+    font-family: 'roboto';
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.cargos a:hover{
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--linha);
+
+}
+.itens-empregos{
+    background-color: var(--white);
+    margin-top: 40px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 54px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.texto a{
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--secundary2);
+    font-family: 'roboto';
+    font-weight: 500;
+    transition: all .2s ease-out;
+}
+.texto a:hover{
+    text-decoration: underline;
+}
+.texto span{
+    font-size: 14px;
+}

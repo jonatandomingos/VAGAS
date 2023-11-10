@@ -1,0 +1,110 @@
+
+.profissional{
+    padding: 100px;
+}
+.sub-profissional{
+    font-size: 16px;
+    font-family: 'roboto';
+    color: var(--primary2);
+    letter-spacing: 2px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.titulo-profissional{
+    display: flex;
+    justify-content: space-between;
+}
+.titulo-profissional h1{
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+.titulo-profissional a{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--secundary);
+    font-family: 'roboto';
+    font-weight: 700;
+    transition: all .2s ease-out;
+
+}
+.titulo-profissional a:hover{
+    text-decoration: underline;
+}
+.titulo-profissional i{
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+}
+.container{
+    display: flex;
+    column-gap: 20px;
+}
+
+.container-foto, .container-foto2, .container-foto3, .container-foto4{
+    background-image: url(https://www.vagas.com.br/assets/home/article-1-e56409156275cb79cedd0047ac884e7e919c6447fc53c150fd5581cec4e98be1.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+   border-radius: 4px;
+
+}
+.container-foto2{
+    background-image: url(https://www.vagas.com.br/assets/home/article-2-8a184cbf105972aa5abf51415aea24d6c32bb09bd6a876d25d31dfd55282c0bc.png);
+}
+.container-foto3{
+    background-image: url(https://www.vagas.com.br/assets/home/article-3-f805fce9b8f8c2c91d2d1cf0970645f58458988c05b4c767b664c849dc180b83.png);
+}
+.container-foto4{
+    background-image: url(https://www.vagas.com.br/assets/home/article-4-fa2e9660ab9162b4fdf0999a8f2f1b1c44f8a0f6c17631d2658511d0acb0de9c.png);
+}
+.info-profissional{
+    height: auto;
+    width: 200px;
+    padding: 10px;
+    background-color: var(--white);
+    margin-left: 40px;
+    margin-top: 250px;
+
+    cursor: pointer;
+}
+
+.info-profissional span{
+    color: var(--texto);
+    font-family: 'roboto';
+    font-weight: 700;
+}
+/* CONTAINER MULHER */
+.container-mulher{
+    display: flex;
+    column-gap: 60px;
+    justify-content: space-around;
+}
+
+.imagens-mulher{
+    width: 100%;
+}
+.info-mulher{
+    display: flex;
+    flex-direction: column;
+
+}
+.info-mulher h2{
+    font-size: 30px;
+    padding-bottom: 80px;
+}
+.info-mulher img{
+    height: 50px;
+    width: 50px;
+    padding-bottom: 20px;
+}
+.info-mulher p, .info-mulher span{
+    font-size: 18px;
+    color: var(--texto-p);
+    font-family: 'roboto';
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.info-mulher h5{
+    font-size: 16px;
+    color: black;
+}

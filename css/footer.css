@@ -1,0 +1,34 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px; 
+    background-color: #eff0f1;
+
+    
+    
+}
+.logo-vagas{
+    display: flex;
+    padding-left: 60px;
+}
+.redes-social{
+    display: flex;
+    column-gap: 20px;
+    margin-right: 40px;
+
+}
+.redes-social span{
+    color: var(--texto-p);
+    font-family: 'roboto';
+    font-weight: 300;
+}
+
+.logo-vagas svg path{
+    color: var(--primary);
+    display: flex;
+    column-gap: 20px;
+   text-align: end;
+   fill: var(--primary);
+}
+/* FOOTER 2 */
+
